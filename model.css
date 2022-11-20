@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: "Century Gothic", sans-serif;
+ }
+
+ .navlist img{
+    width: 12vw;
+    height: 10vh;
+    border-radius: 20%;
+ }
+ 
+ .navlist{
+    width: 100%;
+    position: fixed;
+    padding: 5px 10%;
+    background-color: #110e2bbb;
+ }
+ .navlist ul{
+    display: flex;
+    list-style: none;
+    
+ }
+ .navlist ul li:first-child{
+    flex: 1;
+    color: #ffffff;
+ }
+ .navlist ul li h4{
+    font-family: serif;
+ }
+ .navlist ul li{
+    margin-left: 4vw;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+ }
+ .navlist ul li:hover{
+    cursor:pointer;
+    color:orange;
+    letter-spacing: 0.05em;
+ }
+ .navlist ul li:active{
+    cursor:pointer;
+    color:orange;
+    transform: scale(0.95);
+ }
+ .main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#000000bb, #000000bb), url('./assets/1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30vh;
+ }
+ 
+ .main h1{
+    word-spacing: 0.7vw;
+    margin-bottom: 1vh;
+    font-family: serif;
+    font-size: 7vw;
+ }
+ .main p{
+    font-family: "Century Gothic", sans-serif;
+    font-size: 3vw;
+    letter-spacing: 0.3vw;
+    margin-bottom: 7vh;
+ }
+ .main button{
+    padding: 2vh 3vw;
+    border: none;
+    outline: none;
+    background: none;
+    border: 1px solid #ff8800;
+    color: #ffffff;
+    font-size: 3vw;
+    font-weight: bold;
+    border-radius: 20px;
+ }
+ .main button:hover{
+    background: #ff8800;
+    cursor: pointer;
+    transform: scale(1.05);
+ }
+ .main button:active{
+    background: #FF8859;
+    transform: scale(0.95);
+ }
+ footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4vh;
+    background: #110e2bbb;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+    font-size: 2vh;
+    color:white;
+ }
+ section {
+    width: 20vw;
+    height: 6vh;
+    position: fixed;
+    top: 86%;
+    left: 75%;
+    background: none;
+    color: white;
+    border: 0.3vw #ff8800 solid;
+    padding: 1vh;
+    border-radius: 50vh;
+ }
+
+ section ul{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ section ul li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+ }
+ section ul li:hover{
+    cursor:pointer;
+ }
+
+ section ul li a{
+    color: #ff8800;
+ }
+
+ section ul li a svg{
+    width: 3vh;
+    height: 3vh;
+    color: #ff8800;
+ }
+
+ section ul li a svg:hover{
+    transform: scale(1.25);
+    color: #ff8800;
+ }
+
+ section ul li a svg:active{
+    transform: scale(0.95);
+ }
